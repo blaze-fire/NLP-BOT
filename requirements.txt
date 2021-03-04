@@ -1,0 +1,14 @@
+fire 
+torch 
+torchvision 
+fastai==1.0.54 
+allennlp 
+seaborn 
+sentencepiece 
+spacy 
+aiogram 
+tqdm 
+redis 
+praw 
+python-dotenv 
+docker-compose
