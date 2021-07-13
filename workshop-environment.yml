@@ -1,23 +1,19 @@
 name: nlp-workshop
 channels:
-  - derickl
   - conda-forge
 dependencies:
-  - python>=3.7
-  - pandas
-  - numpy
-  - flask
-  - jsonnet
-  - jupyterlab
-  - ipywidgets
-  - nodejs
-  - ujson
-  - pip
+  - python=3.8
   - pip:
+    - ujson
+    - jsonnet
+    - nodejs
+    - pandas
+    - numpy
+    - flask
     - fire
-    - torch>=1.0.0
+    - torch
     - torchvision
-    - fastai>=1.0
+    - fastai
     - allennlp
     - seaborn
     - sentencepiece
@@ -25,6 +21,6 @@ dependencies:
     - aiogram
     - tqdm 
     - redis
-    - praw>=6.1.1
+    - praw
     - python-dotenv
     - docker-compose
